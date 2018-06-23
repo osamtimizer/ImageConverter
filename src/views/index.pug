@@ -1,0 +1,6 @@
+extends layout
+
+block content
+    form(action="/v1/image", method="post")
+        input(type="file" name="uploadfile")
+        input(type="submit" name="submit" )
